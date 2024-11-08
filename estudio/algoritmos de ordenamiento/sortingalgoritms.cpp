@@ -136,10 +136,7 @@ void countSort(int array[], int size) {
     if (array[i] > max)
       max = array[i];
   }
-  for (int i = 1; i < size; i++) {
-    if (array[i] > max)
-      max = array[i];
-  }
+
 
   // Dynamically allocate count and output arrays
   vector<int> output(size);
