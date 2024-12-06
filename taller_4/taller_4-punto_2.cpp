@@ -68,6 +68,7 @@ int main(){
     lista.add("zorro");
     lista.add("elefante");
     lista.add("casa");
+    lista.add("hola");
 
     lista.check("manzana") ? cout << "manzana esta en la lista" << endl : cout << "manzana no esta en la lista" << endl;
     lista.check("arbol") ? cout << "arbol esta en la lista" << endl : cout << "arbol no esta en la lista" << endl;

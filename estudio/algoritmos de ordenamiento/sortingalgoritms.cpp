@@ -5,9 +5,11 @@
 
 using namespace std;
 using namespace std::chrono;
+int* array[1000];
+int length = 1000;
 
 template <typename T>
-void imprimir(T *array, int length)
+void imprimir()
 {
   cout << "-------------------------------------------------------------" << endl;
   for (int i = 0; i < length; i++)
